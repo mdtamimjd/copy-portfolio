@@ -25,7 +25,9 @@
     font-family: "Open Sans";
     overflow-x: hidden;
 }
-
+body{
+    background-color: #F3F3F3;
+}
 header{
     width: 100vw;
     height: 100vh;
@@ -179,5 +181,50 @@ nav li a{
 }
 
 
+/* What i do */
 
-
+.ido{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ido_box{
+    width: 1140px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.ido_box>h2{
+    color: #181818;
+    font-weight: bold;
+    font-size: 35px;
+}
+.ido_box>p{
+    font-size: 18px;
+    color: #757575;
+}
+.ido_box>.know{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ido_box>.know>div{
+    width: 220px;
+    height: 300px;
+    padding: 20px;
+    border: 1px solid #F3F3F3;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.know>div>img{
+    width: 44px;
+    height: 44px;
+}
