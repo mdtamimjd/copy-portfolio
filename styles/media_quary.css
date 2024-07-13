@@ -18,12 +18,22 @@
         margin: 0 auto;
     }
     nav{
-        width: 75%;
+        width: 100%;
         margin: auto;
         height: auto;
         display: flex;
         flex-direction: column;
-        gap: 20px;
+    }
+    nav ul{
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+    }
+    nav li a{
+        width: auto;
+        height: auto;
     }
     /* header content */
 .content1{
