@@ -18,12 +18,17 @@
         margin: 0 auto;
     }
     nav{
-        width: 75%;
+        width: 100%;
         margin: auto;
         height: auto;
         display: flex;
         flex-direction: column;
         gap: 20px;
+    }
+    nav ul{
+        display: flex;
+        align-items: center;
+        column-gap: 20px;    
     }
     /* header content */
 .content1{
